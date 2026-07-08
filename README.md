@@ -53,12 +53,14 @@ npm run build-storybook
 
 The output will be in `storybook-static/`.
 
-## Deploy on Vercel
+## Deploy on AWS Amplify
 
-Use these settings:
+Use these settings if you configure the app manually in Amplify:
 
 - Build Command: `npm run build-storybook`
 - Output Directory: `storybook-static`
+
+This repo also includes [`amplify.yml`](./amplify.yml), so Amplify can pick up the build settings automatically when you push to GitHub.
 
 ## Font
 
