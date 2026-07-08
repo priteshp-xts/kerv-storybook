@@ -1,0 +1,43 @@
+[12:40:11.469] [INFO] storybook v10.4.6
+[12:40:12.251] [DEBUG] Command "yarn.cmd" not found, trying next variation...
+[12:40:12.350] [DEBUG] Command "yarn.exe" not found, trying next variation...
+[12:40:12.439] [DEBUG] Command "yarn.ps1" not found, trying next variation...
+[12:40:12.621] [DEBUG] Command "pnpm.cmd" not found, trying next variation...
+[12:40:12.718] [DEBUG] Command "pnpm.exe" not found, trying next variation...
+[12:40:12.825] [DEBUG] Command "pnpm.ps1" not found, trying next variation...
+[12:40:13.678] [DEBUG] Getting package.json info for D:/storybook-separate/package.json...
+[12:40:16.397] [INFO] Starting...
+[12:40:17.459] [DEBUG] Starting preview..
+[12:40:17.784] [WARN] 🚨 Unable to index ./src/components/ui/accordion.stories.jsx:
+  TypeError: Duplicate declaration "Card"
+  49 | };
+  50 |
+> 51 | export const Card = {
+     |              ^^^^
+  52 |   render: () => (
+  53 |     <Card className="mx-auto max-w-2xl">
+  54 |       <CardHeader>
+    at File2.buildCodeFrameError (file:///D:/storybook-separate/node_modules/storybook/dist/_node-chunks/chunk-BCIMUOON.js:33306:16)
+    at _Scope.checkBlockScopedCollisions (file:///D:/storybook-separate/node_modules/storybook/dist/_node-chunks/chunk-BCIMUOON.js:24188:31)
+    at _Scope.registerBinding (file:///D:/storybook-separate/node_modules/storybook/dist/_node-chunks/chunk-BCIMUOON.js:24272:20)
+    at _Scope.registerDeclaration (file:///D:/storybook-separate/node_modules/storybook/dist/_node-chunks/chunk-BCIMUOON.js:24231:18)
+    at Object.BlockScoped (file:///D:/storybook-separate/node_modules/storybook/dist/_node-chunks/chunk-BCIMUOON.js:24080:83)
+    at Object.newFn (file:///D:/storybook-separate/node_modules/storybook/dist/_node-chunks/chunk-BCIMUOON.js:23507:21)
+    at NodePath._call (file:///D:/storybook-separate/node_modules/storybook/dist/_node-chunks/chunk-BCIMUOON.js:31682:22)
+    at NodePath.call (file:///D:/storybook-separate/node_modules/storybook/dist/_node-chunks/chunk-BCIMUOON.js:31672:22)
+    at NodePath.visit (file:///D:/storybook-separate/node_modules/storybook/dist/_node-chunks/chunk-BCIMUOON.js:31705:38)
+    at TraversalContext.visitQueue (file:///D:/storybook-separate/node_modules/storybook/dist/_node-chunks/chunk-BCIMUOON.js:31591:49)
+[12:40:17.791] [ERROR] Failed to build the preview
+[12:40:17.796] [ERROR] Error: Unable to index ./src/components/ui/accordion.stories.jsx
+    at _StoryIndexGenerator.getIndexAndStats (file:///D:/storybook-separate/node_modules/storybook/dist/core-server/index.js:19468:15)
+    at async _StoryIndexGenerator.getIndex (file:///D:/storybook-separate/node_modules/storybook/dist/core-server/index.js:19457:13)
+    at async BasicMinimalPluginContext.config (file:///D:/storybook-separate/node_modules/@storybook/builder-vite/dist/_node-chunks/chunk-KJIVQEGR.js:188:19)
+    at async runConfigHook (file:///D:/storybook-separate/node_modules/vite/dist/node/chunks/node.js:35760:15)
+    at async resolveConfig (file:///D:/storybook-separate/node_modules/vite/dist/node/chunks/node.js:35195:11)
+    at async _createServer (file:///D:/storybook-separate/node_modules/vite/dist/node/chunks/node.js:25332:65)
+    at async Module.start (file:///D:/storybook-separate/node_modules/@storybook/builder-vite/dist/index.js:1606:17)
+    at async storybookDevServer (file:///D:/storybook-separate/node_modules/storybook/dist/core-server/index.js:11496:158)
+    at async buildOrThrow (file:///D:/storybook-separate/node_modules/storybook/dist/core-server/index.js:8205:12)
+    at async buildDevStandalone (file:///D:/storybook-separate/node_modules/storybook/dist/core-server/index.js:12057:41)
+[12:40:17.798] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
