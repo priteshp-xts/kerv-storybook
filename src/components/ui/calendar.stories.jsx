@@ -3,7 +3,7 @@ import { addDays } from 'date-fns';
 import { Calendar } from './calendar';
 
 export default {
-  title: 'UI/Calendar',
+  title: 'Components/Calendar',
   component: Calendar,
   parameters: {
     layout: 'centered',
@@ -12,11 +12,7 @@ export default {
 };
 
 export const Basic = {
-  render: () => {
-    const [date, setDate] = React.useState(new Date());
-
-    return <Calendar mode="single" selected={date} onSelect={setDate} className="rounded-lg border" />;
-  },
+  render: () => <Calendar mode="single" className="rounded-lg border" />,
 };
 
 export const RangeCalendar = {

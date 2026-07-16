@@ -1,7 +1,7 @@
 import { RadioGroup, RadioGroupItem } from './radio-group';
 
 export default {
-  title: 'UI/Radio Group',
+  title: 'Components/Radio Group',
   component: RadioGroup,
   parameters: {
     layout: 'centered',

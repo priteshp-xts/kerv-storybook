@@ -9,7 +9,7 @@ import {
 } from './pagination';
 
 export default {
-  title: 'UI/Pagination',
+  title: 'Components/Pagination',
   component: Pagination,
   parameters: {
     layout: 'centered',

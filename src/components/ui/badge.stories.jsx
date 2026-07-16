@@ -1,7 +1,7 @@
 import { Badge } from './badge';
 
 export default {
-  title: 'UI/Badge',
+  title: 'Components/Badge',
   component: Badge,
   parameters: {
     layout: 'centered',

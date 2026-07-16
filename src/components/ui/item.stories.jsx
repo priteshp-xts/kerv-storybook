@@ -13,7 +13,7 @@ import {
 } from './item';
 
 export default {
-  title: 'UI/Item',
+  title: 'Components/Item',
   component: Item,
   parameters: {
     layout: 'centered',

@@ -11,7 +11,7 @@ import {
 } from './input-otp';
 
 export default {
-  title: 'UI/Input OTP',
+  title: 'Components/Input OTP',
   component: InputOTP,
   parameters: {
     layout: 'centered',

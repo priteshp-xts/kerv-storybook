@@ -1,7 +1,7 @@
 import { ScrollArea } from './scroll-area';
 
 export default {
-  title: 'UI/Scroll Area',
+  title: 'Components/Scroll Area',
   component: ScrollArea,
   parameters: {
     layout: 'centered',

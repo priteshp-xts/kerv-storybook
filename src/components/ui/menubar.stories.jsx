@@ -16,7 +16,7 @@ import {
 } from './menubar';
 
 export default {
-  title: 'UI/Menubar',
+  title: 'Components/Menubar',
   component: Menubar,
   parameters: {
     layout: 'centered',

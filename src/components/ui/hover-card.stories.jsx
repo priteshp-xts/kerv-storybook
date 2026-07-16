@@ -6,7 +6,7 @@ import {
 } from './hover-card';
 
 export default {
-  title: 'UI/Hover Card',
+  title: 'Components/Hover Card',
   component: HoverCard,
   parameters: {
     layout: 'centered',

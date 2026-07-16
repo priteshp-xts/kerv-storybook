@@ -14,7 +14,7 @@ const rows = [
 ];
 
 export default {
-  title: 'UI/Table',
+  title: 'Components/Table',
   component: Table,
   parameters: { layout: 'padded' },
 };

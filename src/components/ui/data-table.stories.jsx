@@ -10,7 +10,7 @@ const payments = [
 ];
 
 export default {
-  title: 'UI/Data Table',
+  title: 'Components/Data Table',
   parameters: {
     layout: 'padded',
     controls: { expanded: true },

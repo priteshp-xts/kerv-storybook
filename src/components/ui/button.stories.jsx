@@ -19,7 +19,7 @@ function ArrowRightIcon(props) {
 }
 
 export default {
-  title: 'UI/Button',
+  title: 'Components/Button',
   component: Button,
   parameters: {
     layout: 'centered',

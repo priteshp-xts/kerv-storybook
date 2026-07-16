@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Checkbox } from './checkbox';
 
 export default {
-  title: 'UI/Checkbox',
+  title: 'Components/Checkbox',
   component: Checkbox,
   parameters: {
     layout: 'centered',

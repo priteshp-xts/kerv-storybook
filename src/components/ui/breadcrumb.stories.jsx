@@ -16,7 +16,7 @@ function RouterLink({ href, children, ...props }) {
 }
 
 export default {
-  title: 'UI/Breadcrumb',
+  title: 'Components/Breadcrumb',
   component: Breadcrumb,
   parameters: {
     layout: 'padded',

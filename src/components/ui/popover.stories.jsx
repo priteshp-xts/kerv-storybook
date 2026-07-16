@@ -12,7 +12,7 @@ import { Field, FieldGroup, FieldLabel } from './field';
 import { Input } from './input';
 
 export default {
-  title: 'UI/Popover',
+  title: 'Components/Popover',
   component: Popover,
   parameters: {
     layout: 'centered',

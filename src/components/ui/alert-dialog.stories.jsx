@@ -51,7 +51,7 @@ function DialogStory({
 }
 
 export default {
-  title: 'UI/AlertDialog',
+  title: 'Components/AlertDialog',
   component: AlertDialog,
   parameters: {
     layout: 'centered',

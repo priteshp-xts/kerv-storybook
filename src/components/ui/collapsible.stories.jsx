@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from './collapsible';
 
 export default {
-  title: 'UI/Collapsible',
+  title: 'Components/Collapsible',
   component: Collapsible,
   parameters: {
     layout: 'centered',

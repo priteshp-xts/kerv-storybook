@@ -2,7 +2,7 @@ import { FieldContent, FieldGroup } from './field';
 import { Switch } from './switch';
 
 export default {
-  title: 'UI/Switch',
+  title: 'Components/Switch',
   component: Switch,
   parameters: {
     layout: 'centered',

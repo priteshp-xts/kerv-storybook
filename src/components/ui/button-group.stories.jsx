@@ -11,7 +11,7 @@ import { Popover, PopoverContent, PopoverTrigger } from './popover';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './select';
 
 export default {
-  title: 'UI/Button Group',
+  title: 'Components/Button Group',
   component: ButtonGroup,
   parameters: {
     layout: 'centered',

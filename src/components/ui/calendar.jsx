@@ -4,6 +4,7 @@ import { cn } from '../../lib/utils';
 
 function Calendar({ className, classNames, showOutsideDays = true, ...props }) {
   const defaultClassNames = getDefaultClassNames();
+  const isRangeMode = props.mode === 'range';
   const isDropdownCaption =
     typeof props.captionLayout === 'string' && props.captionLayout.startsWith('dropdown');
 
@@ -36,14 +37,18 @@ function Calendar({ className, classNames, showOutsideDays = true, ...props }) {
         week: cn(defaultClassNames.week, 'flex w-full'),
         day: cn(defaultClassNames.day, 'relative h-10 w-10 p-0 text-center text-sm focus-within:z-20'),
         day_button: cn(defaultClassNames.day_button, 'h-9 w-9 rounded-[5px] border border-transparent bg-transparent p-0 font-normal hover:bg-accent hover:text-accent-foreground'),
-        today: cn(defaultClassNames.today, 'text-[#c2185b] font-semibold'),
-        selected: cn(defaultClassNames.selected, 'bg-[#c2185b] text-white shadow-sm [&_.rdp-day_button]:rounded-[5px] rounded-lg'),
+        today: cn(defaultClassNames.today, 'text-[#ed3b64] font-semibold'),
+        selected: cn(
+          defaultClassNames.selected,
+          isRangeMode ? 'bg-[#f4f4f5] text-black' : 'bg-[#ed3b64] text-white [&_.rdp-day_button]:text-white',
+          'shadow-sm [&_.rdp-day_button]:rounded-[5px] rounded-lg'
+        ),
         outside: cn(defaultClassNames.outside, 'text-muted-foreground/40'),
         disabled: cn(defaultClassNames.disabled, 'text-muted-foreground/40'),
         hidden: cn(defaultClassNames.hidden, 'invisible'),
-        range_middle: cn(defaultClassNames.range_middle, 'bg-[#f4f4f5] text-foreground'),
-        range_start: cn(defaultClassNames.range_start, 'bg-[#c2185b] text-white shadow-sm [&_.rdp-day_button]:rounded-[5px]'),
-        range_end: cn(defaultClassNames.range_end, 'bg-[#c2185b] text-white shadow-sm [&_.rdp-day_button]:rounded-[5px]'),
+        range_middle: cn(defaultClassNames.range_middle, 'bg-[#f4f4f5] text-black'),
+        range_start: cn(defaultClassNames.range_start, 'bg-[#ed3b64] text-white shadow-sm [&_.rdp-day_button]:rounded-[5px]'),
+        range_end: cn(defaultClassNames.range_end, 'bg-[#ed3b64] text-white shadow-sm [&_.rdp-day_button]:rounded-[5px]'),
         ...classNames,
       }}
       {...props}

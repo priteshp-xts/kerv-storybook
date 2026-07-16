@@ -3,7 +3,7 @@ import { Button } from './button';
 import { Toaster } from './sonner';
 
 export default {
-  title: 'UI/Sonner',
+  title: 'Components/Sonner',
   component: Toaster,
   parameters: {
     layout: 'centered',

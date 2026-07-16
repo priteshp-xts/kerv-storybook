@@ -11,7 +11,7 @@ import {
 } from './drawer';
 
 export default {
-  title: 'UI/Drawer',
+  title: 'Components/Drawer',
   component: Drawer,
   parameters: {
     layout: 'centered',

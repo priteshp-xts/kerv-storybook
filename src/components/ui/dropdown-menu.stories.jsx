@@ -18,7 +18,7 @@ import {
 } from './dropdown-menu';
 
 export default {
-  title: 'UI/Dropdown Menu',
+  title: 'Components/Dropdown Menu',
   component: DropdownMenu,
   parameters: {
     layout: 'centered',

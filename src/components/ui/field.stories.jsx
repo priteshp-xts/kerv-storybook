@@ -17,7 +17,7 @@ import {
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './select';
 
 export default {
-  title: 'UI/Field',
+  title: 'Components/Field',
   component: Field,
   parameters: {
     layout: 'centered',

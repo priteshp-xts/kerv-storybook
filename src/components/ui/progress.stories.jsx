@@ -1,7 +1,7 @@
 import { Progress, ProgressLabel, ProgressValue } from './progress';
 
 export default {
-  title: 'UI/Progress',
+  title: 'Components/Progress',
   component: Progress,
   parameters: {
     layout: 'centered',

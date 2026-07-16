@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Slider } from './slider';
 
 export default {
-  title: 'UI/Slider',
+  title: 'Components/Slider',
   component: Slider,
   parameters: {
     layout: 'centered',

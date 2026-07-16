@@ -2,7 +2,7 @@ import * as React from 'react';
 import { DatePicker, DateRangePicker } from './date-picker';
 
 export default {
-  title: 'UI/Date Picker',
+  title: 'Components/Date Picker',
   parameters: {
     layout: 'centered',
     controls: { expanded: true },

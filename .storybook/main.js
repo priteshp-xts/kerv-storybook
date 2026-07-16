@@ -6,6 +6,10 @@ const dirname = fileURLToPath(new URL('.', import.meta.url));
 
 export default {
   stories: ['../src/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
+  features: {
+    changeDetection: false,
+    sidebarOnboardingChecklist: false,
+  },
   framework: {
     name: '@storybook/react-vite',
     options: {},

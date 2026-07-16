@@ -36,7 +36,7 @@ function AccordionExample({ type = 'single', className, defaultValue }) {
 }
 
 export default {
-  title: 'UI/Accordion',
+  title: 'Components/Accordion',
   component: Accordion,
   parameters: {
     layout: 'padded',

@@ -1,6 +1,6 @@
 # Standalone Storybook
 
-This folder is a self-contained Storybook app for the shared UI components.
+This folder is a self-contained Storybook app for the shared Components.
 
 ## What to copy into a new repo
 

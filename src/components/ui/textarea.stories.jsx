@@ -3,7 +3,7 @@ import { Field, FieldDescription, FieldGroup, FieldLabel } from './field';
 import { Textarea } from './textarea';
 
 export default {
-  title: 'UI/Textarea',
+  title: 'Components/Textarea',
   component: Textarea,
   parameters: {
     layout: 'centered',

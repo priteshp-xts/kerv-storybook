@@ -19,7 +19,7 @@ import { Input } from './input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './select';
 
 export default {
-  title: 'UI/Input',
+  title: 'Components/Input',
   component: Input,
   parameters: {
     layout: 'centered',

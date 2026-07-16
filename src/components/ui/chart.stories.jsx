@@ -109,7 +109,7 @@ const bubbleChartConfig = {
 };
 
 export default {
-  title: 'UI/Chart',
+  title: 'Charts/Chart',
   parameters: {
     layout: 'padded',
     controls: { expanded: true },

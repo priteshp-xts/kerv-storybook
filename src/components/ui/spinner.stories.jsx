@@ -4,7 +4,7 @@ import { Input } from './input';
 import { Spinner } from './spinner';
 
 export default {
-  title: 'UI/Spinner',
+  title: 'Components/Spinner',
   component: Spinner,
   parameters: {
     layout: 'centered',

@@ -4,7 +4,7 @@ import { Combobox, ComboboxMultiple } from './combobox';
 const frameworks = ['Next.js', 'SvelteKit', 'Nuxt.js', 'Remix', 'Astro'];
 
 export default {
-  title: 'UI/Combobox',
+  title: 'Components/Combobox',
   component: Combobox,
   parameters: {
     layout: 'centered',
