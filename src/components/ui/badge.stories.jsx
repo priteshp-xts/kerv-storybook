@@ -8,9 +8,18 @@ export default {
     controls: { expanded: true },
   },
   argTypes: {
+    asChild: {
+      control: false,
+      table: {
+        disable: true,
+      },
+    },
     variant: {
       control: { type: 'inline-radio' },
       options: ['default', 'secondary', 'destructive', 'outline'],
+    },
+    children: {
+      control: { type: 'text' },
     },
   },
 };
